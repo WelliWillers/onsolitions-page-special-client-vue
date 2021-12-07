@@ -1,5 +1,5 @@
 <template>
-    <section class="about section" id="about">
+    <section class="about section" id="sobre">
         <h2 class="section__title">Sobre nós</h2>
         <span class="section__subtitle">A empresa</span>
 
@@ -22,7 +22,7 @@
 
                 
 
-                <div class="about__info">
+                <!-- <div class="about__info">
                     <div>
                         <span class="about__info-title">17+</span>
                         <span class="about__info-name">Projects in <br> FrontEnd</span>
@@ -35,13 +35,13 @@
                         <span class="about__info-title">04</span>
                         <span class="about__info-name">Projects in <br> Apps</span>
                     </div>
-                </div>
-
-                <!-- <div class="about__buttons">
-                    <a href="@/assets/pdf/Welli-Cv.pdf" download="" class="button button--flex">
-                        Download CV <i class="uil uil-file-download-alt about__icon"></i>
-                    </a>
                 </div> -->
+
+                <div class="about__buttons">
+                    <a href="https://www.onsolutions.inf.br/" target="_blank" class="button button--flex">
+                        Ir ao site oficial
+                    </a>
+                </div>
             </div>
         </div>
     </section>

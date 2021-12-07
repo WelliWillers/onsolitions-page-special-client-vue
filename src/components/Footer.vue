@@ -1,29 +1,28 @@
 <template>
-    <footer class="footer">
+    <footer class="footer" id="contato">
         <div class="footer__bg">
             <div class="footer__container">
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#about" class="footer__link">Sobre</a>
+                        <a href="#inicio" class="footer__link">Início</a>
                     </li>
                     <li>
-                        <a href="#contactme" class="footer__link">Contato</a>
+                        <a href="#sobre" class="footer__link">Sobre</a>
+                    </li>
+                    <li class=" d-md-none d-block">
+                        <a href="#contato" class="footer__link">Contato</a>
                     </li>
                     <li>
-
                         <div class="footer__socials">
-                            <a href="#0" target="_blank" class="footer__social">
+                            <a href="https://api.whatsapp.com/message/PJGGOKAPNW7JB1" target="_blank" class="footer__social">
                                 <i class="uil uil-whatsapp-alt"></i>
                             </a>
-                            <a href="#0" target="_blank" class="footer__social">
+                            <a href="https://www.facebook.com/onsolutionsinformatica/" target="_blank" class="footer__social">
                                 <i class="uil uil-facebook"></i>
                             </a>
-                            <a href="#0" target="_blank" class="footer__social">
+                            <a href="https://www.instagram.com/onsolutionss/" target="_blank" class="footer__social">
                                 <i class="uil uil-instagram-alt"></i>
-                            </a>
-                            <a href="#0" target="_blank" class="footer__social">
-                                <i class="uil uil-telegram"></i>
                             </a>
                         </div>
                     </li>

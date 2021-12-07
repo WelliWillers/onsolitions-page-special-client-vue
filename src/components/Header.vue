@@ -1,7 +1,7 @@
 <template>
     <header class="header" id="header">
         <nav class="nav container__page">
-            <a href="#" class="nav__logo">On Solutions</a>
+            <a href="#" class="nav__logo d-block d-md-none">On Solutions</a>
 
             <div :class="[
                 'nav__menu',
@@ -10,17 +10,17 @@
                
                 <ul class="nav__list grid__page" v-click-outside="closeMenu">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link" @click="linkAction">
+                        <a href="#inicio" class="nav__link active-link" @click="linkAction">
                             <i class="nav__icon uil uil-estate"></i> Início
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link" @click="linkAction">
+                        <a href="#sobre" class="nav__link" @click="linkAction">
                             <i class="nav__icon uil uil-user"></i> Sobre
                         </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#contactme" class="nav__link" @click="linkAction">
+                    <li class="nav__item d-md-none d-block">
+                        <a href="#contato" class="nav__link" @click="linkAction">
                             <i class="nav__icon uil uil-message"></i> Contato
                         </a>
                     </li>
@@ -119,7 +119,7 @@
     .header {
         background-color: var(--first-color-gray);
         position: fixed;
-        z-index: var(--z-fixed);
+        z-index: var(--z-tooltip);
         right: 0;
         padding: 0 3rem;
         width: calc(100% - var(--nav-left));
@@ -131,6 +131,10 @@
             align-items: center;
             justify-content: space-between;
 
+            .nav__logo{
+                display: none;
+            }
+            
             .nav__logo,
             .nav__btns .nav__toggle {
                 color: var(--title-color);
@@ -186,6 +190,7 @@
                                 font-size: 1.2rem;
                             }
                         }
+
                         .active-link {
                             color: var(--first-color);
                         }
@@ -194,7 +199,7 @@
 
                 .nav__close {
                     position: absolute;
-                    right: 1.2rem;    
+                    right: 4.2rem;    
                     bottom: 0.4rem;    
                     font-size: 2rem;
                     cursor: pointer;

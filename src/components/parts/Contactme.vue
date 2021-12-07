@@ -1,23 +1,23 @@
 <template>
-    <section class="contact section" id="contactme">
-        <h2 class="section__title">Entre em contato</h2>
-        <span class="section__subtitle">Or clear your doubts</span>
+    <section class="contact section">
+        <h2 class="section__title contact__title">Entre em contato</h2>
+        <span class="section__subtitle contact__subtitle">Que retornaremos o mais breve possível.</span>
 
         <div class="contact__container">
             <div class="contact__information">
-                <i class="uil uil-phone contact__icon"></i>
+                <i class="uil uil-whatsapp-alt contact__icon"></i>
 
                 <div>
-                    <h3 class="contact__title">Telefone</h3>
-                    <span class="contact__subtitle"><a href="tell:51992618520">+55 (51) 3748-7017</a></span>
+                    <h3 class="contact__title">WhatsApp</h3>
+                    <span class="contact__subtitle"><a href="https://api.whatsapp.com/message/PJGGOKAPNW7JB1" target="_blank">Clique aqui para<br/>iniciar conversa</a></span>
                 </div>
             </div>
             <div class="contact__information">
-                <i class="uil uil-envelope contact__icon"></i>
+                <i class="uil uil-message contact__icon"></i>
 
                 <div>
                     <h3 class="contact__title">E-mail</h3>
-                    <span class="contact__subtitle"><a href="mailto:onsolutions@onsolutions.inf.br">onsolutions@...</a></span>
+                    <span class="contact__subtitle"><a href="mailto:onsolutions@onsolutions.inf.br" target="_blank">onsolutions@onsolutions.inf.br</a></span>
                 </div>
             </div>
             <div class="contact__information">
@@ -25,7 +25,7 @@
 
                 <div>
                     <h3 class="contact__title">Endereço</h3>
-                    <span class="contact__subtitle"><a href="https://www.google.com/maps?q=lajeado&um=1&ie=UTF-8&sa=X&sqi=2&ved=2ahUKEwjHxcm5iZv0AhUCZt4KHbRmBPUQ_AUoAXoECAEQAw" target="_blank">Brazil, Lajeado - RS</a></span>
+                    <span class="contact__subtitle"><a href="https://www.google.com/maps/place/On+Solutions/@-29.4573996,-51.9733106,17z/data=!3m1!4b1!4m5!3m4!1s0x951c61705f32e42b:0x66c794f54f3ee3fb!8m2!3d-29.457364!4d-51.9711406" target="_blank">R. Pedro Albino Müller, 768 - Sala 103 - Florestal, Lajeado - RS, 95900-612</a></span>
                 </div>
             </div>
         </div>
@@ -37,10 +37,7 @@
 export default {
     name: "contactme-page",
     mounted() {
-        this.$srTop.reveal('.contact__icon', { delay: 100 });
-        this.$srTop.reveal('.contact__title', { delay: 200 });
-        this.$srTop.reveal('.contact__subtitle', { delay: 300 });
-        this.$srTop.reveal('.contact__content', { interval: 100 });
+        this.$srleft.reveal('.contact', { delay: 100 });
     }
 }
 </script>
@@ -54,9 +51,10 @@ export default {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 2rem 2rem 2rem 2rem !important;
+        padding: 5rem 2rem 5rem 2rem !important;
         width: var(--nav-left);
         z-index: var(--z-fixed);
+        box-shadow: 0px 0 14px -6px var(--title-color);
     }
     .contact__container{
         row-gap: 3rem;
@@ -64,9 +62,11 @@ export default {
     }
     .contact__information{
         display: flex;
-        margin-bottom: var(--mb-2);
+        margin-bottom: var(--mb-1);
         align-items: center;
-        gap: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
     .contact__icon{
         font-size: 2rem;
@@ -81,6 +81,7 @@ export default {
     .contact__subtitle{
         font-size: var(--small-font-size);
         color: var(--container-color);
+        margin-bottom: var(--mb-1) !important;
     }
     .contact__content{
         background-color: var(--input-color);

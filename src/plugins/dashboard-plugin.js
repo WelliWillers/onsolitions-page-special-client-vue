@@ -20,7 +20,6 @@ export default {
     Vue.use(GlobalComponents);
     Vue.use(GlobalDirectives);
     Vue.use(BootstrapVue);
-
     Vue.prototype.$srTop = ScrollReveal({
       origin: 'top',
       distance: '50px',

@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 83; 
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -78,6 +78,7 @@
 @media screen and (max-width: 768px) {
     .leftPart {
         display: none;
+        overflow: hidden;
     }
     .rightPart {
         width: 100%;
@@ -91,6 +92,7 @@
         background-color: transparent;
         position: inherit;
         width: 100%;
+        box-shadow: none;
     }
     .contact__icon{
         color: var(--first-color);
@@ -100,6 +102,15 @@
     }
     .contact__subtitle{
         color: var(--text-color);
+    }
+    .contact__information{
+        flex-direction: row;
+        justify-content: start;
+        text-align: left;
+        gap: 1rem;
+    }
+    .nav__logo {
+        display: block !important;
     }
 }
 

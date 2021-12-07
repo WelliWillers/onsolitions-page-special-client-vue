@@ -1,24 +1,28 @@
 <template>
-    <section class="home section" id="home">
+    <section class="home section" id="inicio">
         <div class="home__container container__page grid__page">
             <div class="home__content text-center">
 
                 <div class="home__data">
                     <img src="@/assets/img/logo.png" alt="" class="about__img mb-5">
-                    <h3 class="home__subtitle">Descrição empresa</h3>
+                    <!-- <h3 class="home__subtitle">Descrição empresa</h3> -->
                 </div>
             </div>
 
             <div class="home__scroll">
-                <a href="#about" class="home__scroll-button button--flex">
+                <a href="#mensagem" class="home__scroll-button button--flex">
                     <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                     <span class="home__scroll-name">Descer</span>
                     <i class="uil uil-arrow-down home__scroll-arrow"></i>
                 </a>
             </div>
 
-            <div class="text-center pt-5">
-                <h3>Mensagem de agradecimento aqui</h3>
+            <div class="text-center home__message-text pt-5" id="mensagem">
+                <h3 class="pb-5">Se você chegou até aqui,<br/> pode ter a certeza de que<br/> você é muito especial para nós.</h3>
+                <p>Nosso muito obrigado a você, por avreditar e nos motivas a oferecer o melhor sempre.</p>
+                <p>Esperamos você em <strong>2022</strong>!!</p>
+
+                <h4 class="section__title home__message">Um Feliz Natal e <br/>um próspero 2022.</h4>
             </div>
         </div>
     </section>
@@ -33,6 +37,7 @@ export default {
         this.$srTop.reveal('.home__subtitle', { delay: 300 });
         this.$srTop.reveal('.home__description', { delay: 400 });
         this.$srTop.reveal('.home__social-icon', { interval: 100 });
+        this.$srTop.reveal('.home__message-text', { interval: 100, delay: 100 });
         this.$srTop.reveal('.button--flex', { delay: 100 });
     }
 }
@@ -51,6 +56,9 @@ export default {
         display: grid;
         grid-template-columns: max-content;
         row-gap: 1rem;
+    }
+    .home__message {
+        color: var(--first-color);
     }
     .home__social-icon {
         font-size: 1.25rem;
