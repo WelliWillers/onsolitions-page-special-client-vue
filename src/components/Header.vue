@@ -1,7 +1,7 @@
 <template>
     <header class="header" id="header">
         <nav class="nav container__page">
-            <a href="#" class="nav__logo">I'm Wellington</a>
+            <a href="#" class="nav__logo">On Solutions</a>
 
             <div :class="[
                 'nav__menu',
@@ -11,12 +11,17 @@
                 <ul class="nav__list grid__page" v-click-outside="closeMenu">
                     <li class="nav__item">
                         <a href="#home" class="nav__link active-link" @click="linkAction">
-                            <i class="nav__icon uil uil-estate"></i> Home
+                            <i class="nav__icon uil uil-estate"></i> Início
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link" @click="linkAction">
-                          <i class="nav__icon uil uil-user"></i> About
+                            <i class="nav__icon uil uil-user"></i> Sobre
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contactme" class="nav__link" @click="linkAction">
+                            <i class="nav__icon uil uil-message"></i> Contato
                         </a>
                     </li>
                 </ul>
@@ -25,9 +30,9 @@
             <div class="nav__btns">
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-              <div class="nav__toggle" @click.prevent="toggleMenu" id="nav-toggle">
-                <i class="uil uil-apps"></i>
-              </div>
+                <div class="nav__toggle" @click.prevent="toggleMenu" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
             </div>
         </nav>
     </header>
@@ -112,7 +117,7 @@
 
 <style lang="scss" scoped>
     .header {
-        background-color: var(--body-color);
+        background-color: var(--first-color-gray);
         position: fixed;
         z-index: var(--z-fixed);
         right: 0;

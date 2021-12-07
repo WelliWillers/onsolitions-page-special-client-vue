@@ -1,63 +1,33 @@
 <template>
     <section class="contact section" id="contactme">
-        <h2 class="section__title">Contact me</h2>
+        <h2 class="section__title">Entre em contato</h2>
         <span class="section__subtitle">Or clear your doubts</span>
 
         <div class="contact__container">
-            <!-- <div> -->
-                <div class="contact__information">
-                    <i class="uil uil-phone contact__icon"></i>
+            <div class="contact__information">
+                <i class="uil uil-phone contact__icon"></i>
 
-                    <div>
-                        <h3 class="contact__title">Call me</h3>
-                        <span class="contact__subtitle"><a href="tell:51992618520">+55 (51) 99261-8520</a></span>
-                    </div>
+                <div>
+                    <h3 class="contact__title">Telefone</h3>
+                    <span class="contact__subtitle"><a href="tell:51992618520">+55 (51) 3748-7017</a></span>
                 </div>
-                <div class="contact__information">
-                    <i class="uil uil-envelope contact__icon"></i>
+            </div>
+            <div class="contact__information">
+                <i class="uil uil-envelope contact__icon"></i>
 
-                    <div>
-                        <h3 class="contact__title">Email</h3>
-                        <span class="contact__subtitle"><a href="mailto:Wellington.willers@gmail.com">Wellington.willers@gmail.com</a></span>
-                    </div>
+                <div>
+                    <h3 class="contact__title">E-mail</h3>
+                    <span class="contact__subtitle"><a href="mailto:onsolutions@onsolutions.inf.br">onsolutions@...</a></span>
                 </div>
-                <div class="contact__information">
-                    <i class="uil uil-map-marker contact__icon"></i>
+            </div>
+            <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
 
-                    <div>
-                        <h3 class="contact__title">Location</h3>
-                        <span class="contact__subtitle"><a href="https://www.google.com/maps?q=lajeado&um=1&ie=UTF-8&sa=X&sqi=2&ved=2ahUKEwjHxcm5iZv0AhUCZt4KHbRmBPUQ_AUoAXoECAEQAw" target="_blank">Brazil, Lajeado - RS</a></span>
-                    </div>
+                <div>
+                    <h3 class="contact__title">Endereço</h3>
+                    <span class="contact__subtitle"><a href="https://www.google.com/maps?q=lajeado&um=1&ie=UTF-8&sa=X&sqi=2&ved=2ahUKEwjHxcm5iZv0AhUCZt4KHbRmBPUQ_AUoAXoECAEQAw" target="_blank">Brazil, Lajeado - RS</a></span>
                 </div>
-            <!-- </div> -->
-
-            <!-- <form action="" class="contact__form grid__page">
-                <div class="contact__inputs grid__page">
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Name</label>
-                        <input type="text" class="contact__input">
-                    </div>
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Email</label>
-                        <input type="email" class="contact__input">
-                    </div>
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
-                    </div>
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Message</label>
-                        <textarea name="" class="contact__input" id="" cols="0" rows="7"></textarea>
-                    </div>
-
-                    <div>
-                        <a href="#0" class="button button--flex">
-                            Send Message
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </form> -->
+            </div>
         </div>
 
     </section>
@@ -80,6 +50,11 @@ export default {
         background-color: var(--first-color);
         height: 100%;
         position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem 2rem 2rem 2rem !important;
         width: var(--nav-left);
         z-index: var(--z-fixed);
     }

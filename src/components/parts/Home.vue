@@ -1,21 +1,24 @@
 <template>
     <section class="home section" id="home">
         <div class="home__container container__page grid__page">
-            <div class="home__content grid__page">
-
+            <div class="home__content text-center">
 
                 <div class="home__data">
-                    <h1 class="home__title">Hi, I'am Wellington</h1>
-                    <h3 class="home__subtitle">FrontEnd Development</h3>
+                    <img src="@/assets/img/logo.png" alt="" class="about__img mb-5">
+                    <h3 class="home__subtitle">Descrição empresa</h3>
                 </div>
             </div>
 
             <div class="home__scroll">
                 <a href="#about" class="home__scroll-button button--flex">
                     <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                    <span class="home__scroll-name">Scroll Down</span>
+                    <span class="home__scroll-name">Descer</span>
                     <i class="uil uil-arrow-down home__scroll-arrow"></i>
                 </a>
+            </div>
+
+            <div class="text-center pt-5">
+                <h3>Mensagem de agradecimento aqui</h3>
             </div>
         </div>
     </section>

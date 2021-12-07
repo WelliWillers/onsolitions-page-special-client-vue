@@ -1,7 +1,7 @@
 <template>
     <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My introduction</span>
+        <h2 class="section__title">Sobre nós</h2>
+        <span class="section__subtitle">A empresa</span>
 
         <div class="about__container">
             <!-- <img src="@/assets/img/perfil-2.png" alt="" class="about__img"> -->

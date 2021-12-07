@@ -5,10 +5,10 @@
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#about" class="footer__link">About</a>
+                        <a href="#about" class="footer__link">Sobre</a>
                     </li>
                     <li>
-                        <a href="#about" class="footer__link">About</a>
+                        <a href="#contactme" class="footer__link">Contato</a>
                     </li>
                     <li>
 
@@ -49,7 +49,7 @@ export default {
         text-align: center;
     }
     .footer__bg{
-        background-color: var(--first-color-second );
+        background-color: var(--first-color-dark);
         padding: 2rem 0 3rem;
         padding: 1rem 3rem;
     }
