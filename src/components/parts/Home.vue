@@ -19,7 +19,7 @@
 
             <div class="text-center home__message-text pt-5" id="mensagem">
                 <h3 class="pb-5">Se você chegou até aqui,<br/> pode ter a certeza de que<br/> você é muito especial para nós.</h3>
-                <p>Queremos agradecer pela parceria e confiança a nós depositada,
+                <p>Queremos agradecer pela parceria e confiança a nós depositada.
                 Você é o motivo de buscarmos ser sempre melhores no que fazemos.
                 O nosso muito obrigado!</p>
                 <h4 class="section__title home__message py-4">Um Feliz Natal e <br/>um próspero 2022.</h4>
