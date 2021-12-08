@@ -22,7 +22,7 @@
                 <p>Queremos agradecer pela parceria e confiança a nós depositada.
                 Você é o motivo de buscarmos ser sempre melhores no que fazemos.
                 O nosso muito obrigado!</p>
-                <h4 class="section__title home__message py-4">Um Feliz Natal e <br/>um próspero 2022.</h4>
+                <h4 class="section__title home__message py-4">Um Feliz Natal e <br/>um próspero ano novo.</h4>
                 <p>Esperamos você em <strong>2022</strong>!!</p>
 
             </div>
