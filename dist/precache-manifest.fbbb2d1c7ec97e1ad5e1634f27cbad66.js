@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea6a10c3c3f0b54f42d5",
+    "revision": "87eb27f7dd1fdda2e7ad",
     "url": "/onsolitions-page-special-client-vue/css/app.96873b8e.css"
   },
   {
@@ -92,12 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/onsolitions-page-special-client-vue/img/logo.cc2270bd.png"
   },
   {
-    "revision": "10692a1cd61aa0cc13759ce803e7518f",
+    "revision": "1a9275b4beeef0171b87c73a5b798bfb",
     "url": "/onsolitions-page-special-client-vue/index.html"
   },
   {
-    "revision": "ea6a10c3c3f0b54f42d5",
-    "url": "/onsolitions-page-special-client-vue/js/app.f3e13f0e.js"
+    "revision": "87eb27f7dd1fdda2e7ad",
+    "url": "/onsolitions-page-special-client-vue/js/app.e812713a.js"
   },
   {
     "revision": "da420cad694fab7534c0",
