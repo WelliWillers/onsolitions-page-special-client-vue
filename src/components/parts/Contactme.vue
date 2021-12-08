@@ -9,7 +9,7 @@
 
                 <div>
                     <h3 class="contact__title">WhatsApp</h3>
-                    <span class="contact__subtitle"><a href="https://api.whatsapp.com/message/PJGGOKAPNW7JB1" target="_blank">Clique aqui para<br/>iniciar conversa</a></span>
+                    <span class="contact__subtitle"><a href="https://api.whatsapp.com/message/PJGGOKAPNW7JB1" target="_blank">Clique aqui para conversa</a> <br/> ou ligue (51) 3748-6454</span>
                 </div>
             </div>
             <div class="contact__information">
@@ -25,7 +25,7 @@
 
                 <div>
                     <h3 class="contact__title">Endereço</h3>
-                    <span class="contact__subtitle"><a href="https://www.google.com/maps/place/On+Solutions/@-29.4573996,-51.9733106,17z/data=!3m1!4b1!4m5!3m4!1s0x951c61705f32e42b:0x66c794f54f3ee3fb!8m2!3d-29.457364!4d-51.9711406" target="_blank">R. Pedro Albino Müller, 768 - Sala 103 - Florestal, Lajeado - RS, 95900-612</a></span>
+                    <span class="contact__subtitle"><a href="https://www.google.com/maps/place/On+Solutions/@-29.4573996,-51.9733106,17z/data=!3m1!4b1!4m5!3m4!1s0x951c61705f32e42b:0x66c794f54f3ee3fb!8m2!3d-29.457364!4d-51.9711406" target="_blank">Clique para ver</a></span>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
 export default {
     name: "contactme-page",
     mounted() {
-        this.$srleft.reveal('.contact', { delay: 100 });
+        this.$srTop.reveal('.contact', { delay: 100 });
     }
 }
 </script>

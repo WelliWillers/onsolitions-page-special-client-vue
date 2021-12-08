@@ -3,7 +3,7 @@
         <div class="footer__bg">
             <div class="footer__container">
 
-                <ul class="footer__links">
+                <ul class="footer__links py-4">
                     <li>
                         <a href="#inicio" class="footer__link">Início</a>
                     </li>
@@ -13,20 +13,18 @@
                     <li class=" d-md-none d-block">
                         <a href="#contato" class="footer__link">Contato</a>
                     </li>
-                    <li>
-                        <div class="footer__socials">
-                            <a href="https://api.whatsapp.com/message/PJGGOKAPNW7JB1" target="_blank" class="footer__social">
-                                <i class="uil uil-whatsapp-alt"></i>
-                            </a>
-                            <a href="https://www.facebook.com/onsolutionsinformatica/" target="_blank" class="footer__social">
-                                <i class="uil uil-facebook"></i>
-                            </a>
-                            <a href="https://www.instagram.com/onsolutionss/" target="_blank" class="footer__social">
-                                <i class="uil uil-instagram-alt"></i>
-                            </a>
-                        </div>
-                    </li>
                 </ul>
+                <div class="footer__socials">
+                    <a href="https://api.whatsapp.com/message/PJGGOKAPNW7JB1" target="_blank" class="footer__social">
+                        <i class="uil uil-whatsapp-alt"></i>
+                    </a>
+                    <a href="https://www.facebook.com/onsolutionsinformatica/" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/onsolutionss/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram-alt"></i>
+                    </a>
+                </div>
 
             </div>
             <p class="footer__copy">
@@ -71,7 +69,10 @@ export default {
     }
     .footer__links{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        gap: 2rem;
         row-gap: 1.5rem;
     }
     .footer__link:hover{

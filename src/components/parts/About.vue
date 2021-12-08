@@ -9,14 +9,11 @@
             <div class="about__data">
                 <p class="about__description">
                     A On Solutions Informática Assessoria e Suporte iniciou suas atividades em maio de 2010, na cidade de Lajeado, Rio Grande do Sul. A empresa surgiu de dois amigos com muitas ideias somadas a grande experiência profissional na área de informática.
-                </p>  
-                <p class="about__description">  
+                    <br/>
                     Trabalhamos com o intuito de atender aos clientes com o máximo de dedicação, nossa prioridade é a satisfação de nossos clientes.
-                </p>
-                <p class="about__description">
+                    <br/>
                     Nossa meta é suprir a necessidade de nossos clientes, superando expectativas, criando e aplicando soluções na área de informática.
-                </p>
-                <p class="about__description">
+                    <br/>
                     Temos como princípios básicos a responsabilidade, ética profissional, honestidade e respeito para com nossos clientes, que são nossos bens maiores.
                 </p>
 
@@ -37,11 +34,11 @@
                     </div>
                 </div> -->
 
-                <div class="about__buttons">
+                <!-- <div class="about__buttons">
                     <a href="https://www.onsolutions.inf.br/" target="_blank" class="button button--flex">
                         Ir ao site oficial
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -68,6 +65,11 @@ export default {
     .about__description {
         text-align: center;
         margin-bottom: var(--mb-2-5);
+    }
+    .about__container {
+        text-align: center;
+        margin: auto;
+        max-width: 80%;
     }
     .about__info{
         display: flex;
