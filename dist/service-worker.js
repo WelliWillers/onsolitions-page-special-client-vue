@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/onsolitions-page-special-client-vue/precache-manifest.b58ef4f3cb2200ab6feba97619bcb800.js"
+  "/onsolitions-page-special-client-vue/precache-manifest.4645d590b35c83b2fca4a079ff1e3b9e.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "clienteespecial"});
