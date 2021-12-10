@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? '/' : '/onsolitions-page-special-client-vue/'
+    publicPath: process.env.NODE_ENV === 'production' ? '/2021/clienteespecial/' : '/2021/clienteespecial/'
 }
